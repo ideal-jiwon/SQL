@@ -1,0 +1,3 @@
+SELECT EMPLOYEE.First_NAME, EMPLOYEE.Last_Name, EMPLOYEE.Hourly_Rate, EMPLOYEE.Hours, EMPLOYEE.Overtime
+FROM EMPLOYEE
+WHERE EMPLOYEE.Hourly_Rate > 50 or Overtime >0;

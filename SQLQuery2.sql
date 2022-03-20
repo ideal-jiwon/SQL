@@ -1,0 +1,3 @@
+SELECT PRODUCT.ProductID, PRODUCT.ProductName, PRODUCT.ProductPrice, PRODUCT.VendorID, PRODUCT.CategoryID
+FROM PRODUCT
+WHERE PRODUCT.ProductPrice <30;
